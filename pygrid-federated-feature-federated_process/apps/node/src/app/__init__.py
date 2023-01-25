@@ -217,7 +217,7 @@ def create_app(node_id: str, debug=True, n_replica=None, test_config=None) -> Fl
         db.init_app(app)
 
         if database_exists(db.engine.url):
-            # drop_database(db.engine.url)
+            drop_database(db.engine.url)
             db.create_all(app=app)
         else:
             db.create_all(app=app)
