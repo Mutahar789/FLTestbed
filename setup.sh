@@ -15,5 +15,11 @@ pip install poetry
 cd apps/node/
 poetry install
 
+pip install wheel importlib_metadata==4 apscheduler pyfcm flask_apscheduler
+pip install matplotlib pandas torch_summary
+
+cd ../../../
+cp -r syft $(pip show syft | grep "Location" | grep -oP '(?<=/).*(?=site-packages)' | sed 's/.*/\/&site-packages\//')
+
 
 
