@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "763716517745",
+    "firebase_url": "https://fedadaptive.firebaseio.com",
+    "project_id": "fedadaptive",
+    "storage_bucket": "fedadaptive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763716517745:android:e8aecbc07e6f823207c0d0",
+        "android_client_info": {
+          "package_name": "org.openmined.syft.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763716517745-aa85ov750uj6673nqib1vj3cmdnvvjjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACms8-HIyuUWo95vUoywShsdG29COI5HE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763716517745-aa85ov750uj6673nqib1vj3cmdnvvjjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

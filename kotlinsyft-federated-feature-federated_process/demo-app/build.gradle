@@ -1,0 +1,86 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'  // Google Services plugin
+
+android {
+    compileSdkVersion Versions.compileSdk
+    buildToolsVersion Versions.buildTools
+    defaultConfig {
+        applicationId Versions.demoAppId
+        minSdkVersion Versions.minSdk
+        targetSdkVersion Versions.targetSdk
+        versionCode Versions.appVersionCode
+        versionName Versions.appVersionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        Properties properties = new Properties()
+        properties.load(project.rootProject.file('demo-app/authentication.properties').newDataInputStream())
+        buildConfigField 'String', 'SYFT_AUTH_TOKEN', properties.getProperty('syft.authToken')
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+
+    dataBinding {
+        enabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE.md'
+        exclude 'META-INF/LICENSE-notice.md'
+
+    }
+}
+
+dependencies {
+    implementation CommonDependencies.appCompat
+    implementation CommonDependencies.constraintLayout
+    implementation CommonDependencies.coreKtx
+    implementation CommonDependencies.kotlinSerialization
+    implementation CommonDependencies.rxJava
+    implementation CommonDependencies.rxAndroid
+
+    implementation DemoAppDependencies.mpAndroidChart
+    implementation DemoAppDependencies.materialAndroid
+    implementation DemoAppDependencies.kotlinJDK
+    implementation DemoAppDependencies.workKtx
+    implementation DemoAppDependencies.workGCM
+    implementation DemoAppDependencies.workRX
+    implementation DemoAppDependencies.coroutines
+    implementation DemoAppDependencies.lifecycle
+    implementation DemoAppDependencies.lifeCycleProcess
+
+    // TODO During the first stages of the project, include the library here. Later on we should use the library from the repository
+    implementation project(path: ':syft')
+//    implementation 'org.openmined.kotlinsyft:syft:0.1.3'
+
+    implementation SyftlibDependencies.pytorchAndroid
+    implementation SyftlibDependencies.torchVisionAndroid
+
+    androidTestImplementation DemoAppDependencies.workTest
+    androidTestImplementation CommonDependencies.adxExtJunit
+    androidTestImplementation CommonDependencies.espresso
+
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.2.1'
+    implementation platform('com.google.firebase:firebase-bom:25.12.0')
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation SyftlibDependencies.retrofitAdapter
+    implementation SyftlibDependencies.retrofit
+
+    implementation 'org.greenrobot:eventbus:3.2.0'
+    compile 'com.jaredrummler:android-processes:1.1.1'
+
+}

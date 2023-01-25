@@ -1,0 +1,103 @@
+Load: 7.91 / 7.59 / 7.71
+CPU usage from 530676ms to 281662ms ago (2021-04-06 20:55:20.859 to 2021-04-06 20:59:29.873):
+  20% 27100/org.openmined.syft.demo: 19% user + 1.2% kernel / faults: 211244 minor 1 major
+  9.5% 26037/com.example.myapplication:ServiceProcess: 3.6% user + 5.8% kernel / faults: 18120 minor 5 major
+  6.9% 20035/system_server: 3.3% user + 3.5% kernel / faults: 6266 minor 53 major
+  1.1% 248/cfinteractive: 0% user + 1.1% kernel
+  1% 20588/com.google.android.gms.persistent: 0.7% user + 0.3% kernel / faults: 10337 minor 43 major
+  0.6% 349/logd: 0.3% user + 0.3% kernel / faults: 52 minor 3 major
+  0.6% 505/surfaceflinger: 0.2% user + 0.3% kernel / faults: 9 minor
+  0.5% 19462/kworker/2:0: 0% user + 0.5% kernel
+  0.5% 564/irq/215-fc38800: 0% user + 0.5% kernel
+  0.5% 27249/com.google.android.gms: 0.4% user + 0.1% kernel / faults: 9702 minor 409 major
+  0.5% 25577/adbd: 0% user + 0.4% kernel / faults: 3358 minor
+  0.4% 10/rcu_preempt: 0% user + 0.4% kernel
+  0.4% 26940/kworker/u16:4: 0% user + 0.4% kernel
+  0.4% 257/mmcqd/0: 0% user + 0.4% kernel
+  0.4% 301/msm-core:sampli: 0% user + 0.4% kernel
+  0.4% 24977/kworker/u16:2: 0% user + 0.4% kernel
+  0.3% 25547/kworker/u16:6: 0% user + 0.3% kernel
+  0.2% 25705/logcat: 0% user + 0.1% kernel / faults: 12 minor
+  0.2% 20185/com.android.systemui: 0.1% user + 0% kernel / faults: 2575 minor 65 major
+  0.2% 503/msm_irqbalance: 0% user + 0.1% kernel / faults: 1 minor
+  0.2% 40/kworker/u17:0: 0% user + 0.2% kernel
+  0.2% 585/thermal-engine: 0% user + 0.1% kernel
+  0.1% 15/ksoftirqd/1: 0% user + 0.1% kernel
+  0.1% 134/kswapd0: 0% user + 0.1% kernel
+  0.1% 256/nanohub: 0% user + 0.1% kernel
+  0.1% 3/ksoftirqd/0: 0% user + 0.1% kernel
+  0.1% 745/mdss_fb0: 0% user + 0.1% kernel
+  0% 25122/kworker/0:3: 0% user + 0% kernel
+  0% 204/spi5: 0% user + 0% kernel
+  0% 357/kauditd: 0% user + 0% kernel
+  0% 4085/kworker/0:0: 0% user + 0% kernel
+  0% 27266/com.google.process.gapps: 0% user + 0% kernel / faults: 746 minor
+  0% 20/ksoftirqd/2: 0% user + 0% kernel
+  0% 19840/zygote64: 0% user + 0% kernel / faults: 1611 minor
+  0% 498/android.hardware.wifi@1.0-service: 0% user + 0% kernel / faults: 128 minor 4 major
+  0% 20324/com.android.phone: 0% user + 0% kernel / faults: 2674 minor 52 major
+  0% 169/hwrng: 0% user + 0% kernel
+  0% 22692/com.google.android.apps.turbo:aab: 0% user + 0% kernel / faults: 2212 minor 14 major
+  0% 25/ksoftirqd/3: 0% user + 0% kernel
+  0% 20173/com.google.android.inputmethod.latin: 0% user + 0% kernel / faults: 821 minor 16 major
+  0% 255/irq/603-nanohub: 0% user + 0% kernel
+  0% 26378/kworker/1:1: 0% user + 0% kernel
+  0% 8/rcuc/0: 0% user + 0% kernel
+  0% 13/rcuc/1: 0% user + 0% kernel
+  0% 19845/wificond: 0% user + 0% kernel / faults: 79 minor 1 major
+  0% 20144/com.android.bluetooth: 0% user + 0% kernel / faults: 1953 minor 480 major
+  0% 26532/kworker/3:1: 0% user + 0% kernel
+  0% 44/irq/51-cpr: 0% user + 0% kernel
+  0% 303/msm_thermal:fre: 0% user + 0% kernel
+  0% 25581/android.process.media: 0% user + 0% kernel / faults: 1588 minor 4 major
+  0% 330/ueventd: 0% user + 0% kernel
+  0% 339/jbd2/mmcblk0p44: 0% user + 0% kernel
+  0% 504/lmkd: 0% user + 0% kernel
+  0% 20890/com.google.android.googlequicksearchbox:interactor: 0% user + 0% kernel / faults: 4121 minor 48 major
+  0% 20976/com.google.android.googlequicksearchbox: 0% user + 0% kernel / faults: 392 minor 11 major
+  0% 18/rcuc/2: 0% user + 0% kernel
+  0% 607/rild: 0% user + 0% kernel / faults: 625 minor 10 major
+  0% 261/irq/224-spdm_bw: 0% user + 0% kernel
+  0% 350/servicemanager: 0% user + 0% kernel / faults: 17 minor 4 major
+  0% 20904/com.quicinc.cne.CNEService: 0% user + 0% kernel / faults: 1689 minor 17 major
+  0% 5/kworker/0:0H: 0% user + 0% kernel
+  0% 23/rcuc/3: 0% user + 0% kernel
+  0% 179/kgsl_worker_thr: 0% user + 0% kernel
+  0% 499/healthd: 0% user + 0% kernel / faults: 122 minor
+  0% 586/qmuxd: 0% user + 0% kernel / faults: 155 minor 1 major
+  0% 17809/kworker/3:3: 0% user + 0% kernel
+  0% 20916/com.android.nfc: 0% user + 0% kernel / faults: 2731 minor 4 major
+  0% 22572/com.google.android.ims: 0% user + 0% kernel / faults: 2340 minor 23 major
+  0% 19844/netd: 0% user + 0% kernel / faults: 283 minor 2 major
+  0% 159/mdss_dsi_event: 0% user + 0% kernel
+  0% 240/irq/216-tsens_i: 0% user + 0% kernel
+  0% 47/ksoftirqd/4: 0% user + 0% kernel
+  0% 57/system: 0% user + 0% kernel
+  0% 160/vsync_retire_wo: 0% user + 0% kernel
+  0% 15252/kworker/4:2: 0% user + 0% kernel
+  0% 25294/kworker/1:3: 0% user + 0% kernel
+  0% 24/migration/3: 0% user + 0% kernel
+  0% 239/therm_core:noti: 0% user + 0% kernel
+  0% 549/ksoftirqd/5: 0% user + 0% kernel
+  0% 554/ksoftirqd/6: 0% user + 0% kernel
+  0% 559/ksoftirqd/7: 0% user + 0% kernel
+  0% 625/cnd: 0% user + 0% kernel / faults: 97 minor
+  0% 16223/kworker/7:1: 0% user + 0% kernel
+  0% 17826/kworker/5:0: 0% user + 0% kernel
+  0% 19841/audioserver: 0% user + 0% kernel / faults: 52 minor 9 major
+  0% 20413/wpa_supplicant: 0% user + 0% kernel / faults: 135 minor 5 major
+ +0% 27380/com.google.android.contacts: 0% user + 0% kernel
+ +0% 27443/kworker/3:0: 0% user + 0% kernel
+ +0% 27464/kworker/2:1: 0% user + 0% kernel
+ +0% 27468/kworker/3:2: 0% user + 0% kernel
+ +0% 27556/com.huawei.sarcontrolservice: 0% user + 0% kernel
+ +0% 27573/com.qualcomm.qcrilmsgtunnel: 0% user + 0% kernel
+ +0% 27594/com.qualcomm.telephony: 0% user + 0% kernel
+ +0% 27622/kworker/3:4: 0% user + 0% kernel
+ +0% 27625/kworker/0:2: 0% user + 0% kernel
+ +0% 27648/kworker/2:2: 0% user + 0% kernel
+ +0% 27661/kworker/1:2: 0% user + 0% kernel
+ +0% 27662/com.google.android.googlequicksearchbox:search: 0% user + 0% kernel
+ +0% 27746/com.google.android.dialer: 0% user + 0% kernel
+ +0% 27784/com.google.android.gms.unstable: 0% user + 0% kernel
+6.6% TOTAL: 3.9% user + 2.1% kernel + 0.1% iowait + 0.1% irq + 0.1% softirq
