@@ -3,10 +3,13 @@
 cd pygrid-federated-feature-federated_process/examples/model-centric/data/
 
 # Nexus 6P
-adb -s 84B5T15B03015109 shell "su -c cat /data/user/0/org.openmined.syft.demo/files/mydir/memoryinfo.csv" > "Nexus 6P_memLog.csv"
+adb -s 84B5T15B03015109 shell top | grep openmined > "Nexus 69_cpu_info"
+
 # Nexus 5x
-adb -s 00f2aa907991b4e1 shell "su -c cat /data/user/0/org.openmined.syft.demo/files/mydir/memoryinfo.csv" > "Nexus 5x_memLog.csv"
+adb -s 00f2aa907991b4e1 shell top | grep openmined > "Nexus 5x_cpu_info"
+
 # Nexus 5
-adb -s 0ba3223902e1a4b4 shell "cat /data/user/0/org.openmined.syft.demo/files/mydir/memoryinfo.csv" > "Nexus 5_memLog.csv"
+adb -s 0ba3223902e1a4b4 shell top | grep openmined > "Nexus 5_cpu_info"
+
 # Nokia 1
-adb -s FRTBA80314746200 shell "su -c cat /data/user/0/org.openmined.syft.demo/files/mydir/memoryinfo.csv" > "Nokia 1_memLog.csv"
+adb -s FRTBA80314746200 shell top | grep openmined > "Nokia 1_cpu_info"
