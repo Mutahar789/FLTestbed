@@ -422,7 +422,7 @@ def save_fcm_device_registration_token(message: dict, socket=None, cycle_manager
         worker.ram = data.get("ram_size", None)
         worker.cpu_cores = data.get("cpu_cores", None)
 
-        if worker.ram < 3:
+        if worker.ram < 2:
             worker.is_slow = True
         else:
             worker.is_slow = False

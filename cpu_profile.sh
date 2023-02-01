@@ -3,7 +3,7 @@
 cd pygrid-federated-feature-federated_process/examples/model-centric/data/
 
 # Nexus 6P
-adb -s 84B5T15B03015109 shell top | grep openmined > "Nexus 69_cpu_info"
+adb -s 84B7N15A07007998 shell top | grep openmined > "Nexus 6P_cpu_info"
 
 # Nexus 5x
 adb -s 00f2aa907991b4e1 shell top | grep openmined > "Nexus 5x_cpu_info"
