@@ -12,6 +12,11 @@ cd FLTestbed/
 ./run_server.sh
 ```
 
+## CPU profiling:
+```
+./get_cpu_profile.sh <device_id>
+```
+
 ## Install app:
 Change IP address in MnistActivity.kt <br />
 To install the application on a slow device, set the variable isSlowClient to true in LocalFEMNISTDataSource and false otherwise. <br />
