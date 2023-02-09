@@ -18,6 +18,6 @@ cd FLTestbed/
 ```
 
 ## Install app:
-Change IP address in MnistActivity.kt <br />
+Change IP address in MnistActivity.kt and client variable in LocalFEMNISTDataDataSource.kt <br />
 To install the application on a slow device, set the variable isSlowClient to true in LocalFEMNISTDataSource and false otherwise. <br />
 Open in android-studio and install. <br />
