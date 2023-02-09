@@ -1,0 +1,5 @@
+Device,RAM,CPU,OS,Chipset
+Nexus 5x,2GB,Hexa-core (4x1.4 GHz Cortex-A53 & 2x1.8 GHz Cortex-A57),Android 8.1,Qualcomm MSM8992 Snapdragon 808 (20 nm)
+Nexus 6P,3GB,Octa-core (4x1.55 GHz Cortex-A53 & 4x2.0 GHz Cortex-A57),Android 8.0,Qualcomm MSM8994 Snapdragon 810 (20 nm)
+Nexus 5,2GB,Quad-core 2.3 GHz Krait 400,Custom ROM 8.1 (Lineage OS) ,Qualcomm MSM8974 Snapdragon 800 (28 nm)
+Nokia 1,1GB,Quad-core 1.1 GHz Cortex-A53,Android 10,Mediatek MT6737M (28 nm)
