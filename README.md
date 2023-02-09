@@ -14,7 +14,7 @@ cd FLTestbed/
 
 ## CPU profiling:
 ```
-./get_cpu_profile.sh <device_id>
+./get_cpu_profile.sh <device_id> <device_name>
 ```
 
 ## Install app:
