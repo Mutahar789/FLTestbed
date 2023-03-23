@@ -9,6 +9,7 @@ sudo apt install -y python3.7-venv
 
 python3.7 -m venv fl-testbed
 source fl-testbed/bin/activate
+pip install sqlalchemy-utils
 
 cd pygrid-federated-feature-federated_process/
 pip install poetry
