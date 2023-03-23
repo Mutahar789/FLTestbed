@@ -12,9 +12,19 @@ cd FLTestbed/
 ./run_server.sh
 ```
 
+## Run Notebook:
+```
+./run_notebook.sh
+```
+
 ## CPU profiling:
 ```
 ./get_cpu_profile.sh <device_id> <device_name>
+```
+
+## CPU profiling:
+```
+./get_mem_profile.sh <device_id> <device_name>
 ```
 
 ## Install app:
