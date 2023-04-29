@@ -22,7 +22,7 @@ cd FLTestbed/
 ./get_cpu_profile.sh <device_id> <device_name>
 ```
 
-## CPU profiling:
+## Memory profiling:
 ```
 ./get_mem_profile.sh <device_id> <device_name>
 ```
